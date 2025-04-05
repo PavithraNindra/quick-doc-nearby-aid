@@ -29,8 +29,8 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <Card className="text-center">
               <CardContent className="pt-6">
-                <div className="mx-auto h-12 w-12 rounded-full bg-medical/10 flex items-center justify-center mb-4">
-                  <MapPin className="h-6 w-6 text-medical" />
+                <div className="mx-auto h-12 w-12 rounded-full bg-emergency/10 flex items-center justify-center mb-4">
+                  <MapPin className="h-6 w-6 text-emergency" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Find Nearby</h3>
                 <p className="text-gray-600 text-sm">
@@ -41,8 +41,8 @@ const Index = () => {
             
             <Card className="text-center">
               <CardContent className="pt-6">
-                <div className="mx-auto h-12 w-12 rounded-full bg-medical/10 flex items-center justify-center mb-4">
-                  <Users className="h-6 w-6 text-medical" />
+                <div className="mx-auto h-12 w-12 rounded-full bg-emergency/10 flex items-center justify-center mb-4">
+                  <Users className="h-6 w-6 text-emergency" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Choose a Doctor</h3>
                 <p className="text-gray-600 text-sm">
@@ -53,8 +53,8 @@ const Index = () => {
             
             <Card className="text-center">
               <CardContent className="pt-6">
-                <div className="mx-auto h-12 w-12 rounded-full bg-medical/10 flex items-center justify-center mb-4">
-                  <Phone className="h-6 w-6 text-medical" />
+                <div className="mx-auto h-12 w-12 rounded-full bg-emergency/10 flex items-center justify-center mb-4">
+                  <Phone className="h-6 w-6 text-emergency" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Contact Instantly</h3>
                 <p className="text-gray-600 text-sm">
@@ -65,8 +65,8 @@ const Index = () => {
             
             <Card className="text-center">
               <CardContent className="pt-6">
-                <div className="mx-auto h-12 w-12 rounded-full bg-medical/10 flex items-center justify-center mb-4">
-                  <Clock className="h-6 w-6 text-medical" />
+                <div className="mx-auto h-12 w-12 rounded-full bg-emergency/10 flex items-center justify-center mb-4">
+                  <Clock className="h-6 w-6 text-emergency" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Get Quick Help</h3>
                 <p className="text-gray-600 text-sm">
@@ -85,7 +85,7 @@ const Index = () => {
                 <p className="text-gray-600 mb-6">
                   See all available doctors in your area with our interactive map. Quickly identify who's closest to you and get directions.
                 </p>
-                <Button className="bg-medical hover:bg-medical-dark mb-8">
+                <Button className="bg-emergency hover:bg-emergency-dark mb-8">
                   Open Full Map
                 </Button>
                 <Map />
@@ -98,14 +98,14 @@ const Index = () => {
           </div>
         </div>
         
-        <div className="py-12 bg-medical text-white">
+        <div className="py-12 bg-emergency text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-6">Need Emergency Help?</h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Don't wait during an emergency. Connect with qualified doctors now and get immediate assistance.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button size="lg" className="bg-white hover:bg-gray-100 text-medical font-medium">
+              <Button size="lg" className="bg-white hover:bg-gray-100 text-emergency font-medium">
                 Find Nearby Doctors
               </Button>
               <Button size="lg" variant="outline" className="bg-transparent border-white hover:bg-white/10 text-white">

@@ -28,8 +28,8 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=580&q=80" 
-                alt="Hospital building" 
+                src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=580&q=80" 
+                alt="Stethoscope" 
                 className="rounded-lg shadow-xl max-w-full h-auto"
               />
               <div className="absolute -bottom-4 -left-4 bg-white p-3 rounded-lg shadow-lg">
