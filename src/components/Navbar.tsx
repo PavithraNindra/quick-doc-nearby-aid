@@ -14,7 +14,7 @@ const Navbar = () => {
               <path d="M16 10.5h6m-3-3v6"></path>
             </svg>
           </div>
-          <span className="font-bold text-lg text-gray-900">QuickDoc</span>
+          <span className="font-bold text-lg text-gray-900">HELLO DOCTOR</span>
         </Link>
         
         <div className="hidden md:flex items-center space-x-6">

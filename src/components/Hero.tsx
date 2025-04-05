@@ -5,18 +5,18 @@ import { MapPin } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="relative bg-gradient-to-r from-medical-light to-medical py-16 md:py-24">
+    <div className="relative bg-emergency py-16 md:py-24">
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-white mb-8 md:mb-0">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Find Emergency Doctors <span className="text-emergency">Near You</span>
+              Find Emergency Doctors <span className="text-white">Near You</span>
             </h1>
             <p className="text-xl mb-8 text-white/90">
               Quick access to qualified medical professionals when you need them most. Get immediate help from doctors in your area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-white hover:bg-gray-100 text-medical font-medium">
+              <Button size="lg" className="bg-white hover:bg-gray-100 text-emergency font-medium">
                 <MapPin className="mr-2 h-5 w-5" />
                 Find Nearby Doctors
               </Button>
@@ -28,8 +28,8 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=580&auto=format&fit=crop" 
-                alt="Doctor helping patient" 
+                src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=580&q=80" 
+                alt="Hospital building" 
                 className="rounded-lg shadow-xl max-w-full h-auto"
               />
               <div className="absolute -bottom-4 -left-4 bg-white p-3 rounded-lg shadow-lg">
@@ -52,7 +52,7 @@ const Hero = () => {
       
       <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
       
-      <div className="hidden md:block absolute top-0 right-0 w-1/3 h-full bg-medical opacity-10 -skew-x-12 transform origin-top-right"></div>
+      <div className="hidden md:block absolute top-0 right-0 w-1/3 h-full bg-emergency-dark opacity-10 -skew-x-12 transform origin-top-right"></div>
     </div>
   );
 };
